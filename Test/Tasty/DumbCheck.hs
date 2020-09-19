@@ -14,7 +14,6 @@ import Control.Arrow (left)
 #if !MIN_VERSION_base(4,8,0)
 import Control.Applicative (pure)
 #endif
-import Data.Monoid ((<>))
 import Data.Proxy (Proxy(..))
 import Data.Typeable (Typeable)
 
